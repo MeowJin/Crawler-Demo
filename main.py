@@ -8,8 +8,8 @@ import random
 dp = ChromiumPage()
 
 # 2.访问网站
-keyword = '开发工程师 -助理'
-url = f'https://we.51job.com/pc/search?jobArea=070400,070500,070300&industry=31,02,14,35,65&keyword={keyword}&searchType=2&jobType=0&sortType=0&metro='
+keyword = 'IT总监'
+url = f'https://we.51job.com/pc/search?jobArea=070300&keyword={keyword}&searchType=2&jobType=0&sortType=0&metro='
 dp.get(url)
 
 # 创建文件对象
